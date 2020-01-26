@@ -97,14 +97,15 @@
 # do_global()
 # print("After global assignment: ", spam)
 
-x=10
-def func():
-	nonlocal x
-	print('x is', x)
+# x=10
+# def func():
+# 	nonlocal x
+# 	print('x is', x)
 
-	x=5
-	print("Value of x is:" , x)
+# 	x=5
+# 	print("Value of x is:" , x)
 
-x=10
-func()
-print("Real Value of x is:" , x)
+# x=10
+# func()
+# print("Real Value of x is:" , x)
+
